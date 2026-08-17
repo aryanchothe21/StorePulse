@@ -1,4 +1,4 @@
-# StorePulse
+# StoreRating
 
 A full-stack, role-based store rating platform built for the Roxiler FullStack Coding Challenge. Users can discover stores and rate them (1–5), store owners can track their ratings, and admins manage the entire platform from a central dashboard.
 
