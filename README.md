@@ -39,32 +39,6 @@ A full-stack, role-based store rating platform built for the Roxiler FullStack C
   - Average rating of their store
 - Update their password
 
-## 📁 Project Structure
-store-pulse/
-├── backend/
-│ ├── prisma/
-│ │ ├── schema.prisma # User, Store, Rating models
-│ │ ├── migrations/ # Version-controlled schema history
-│ │ └── seed.js # Creates the initial Admin account
-│ ├── src/
-│ │ ├── controllers/ # Business logic per feature
-│ │ ├── routes/ # Express route definitions
-│ │ ├── middlewares/ # JWT auth + role-based guards
-│ │ ├── utils/ # Shared validation rules
-│ │ ├── prismaClient.js # Shared Prisma Client instance
-│ │ └── server.js # App entry point
-│ ├── .env.example
-│ └── package.json
-│
-└── frontend/
-├── src/
-│ ├── api/ # Axios instance + API call functions
-│ ├── components/ # Reusable UI components
-│ ├── context/ # AuthContext (global login state)
-│ ├── pages/ # Login, Signup, dashboards per role
-│ ├── App.jsx
-│ └── main.jsx
-└── package.json
 ## ⚙️ Setup Instructions
 
 ### Backend
