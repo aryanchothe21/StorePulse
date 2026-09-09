@@ -15,14 +15,14 @@ function App() {
   return (
     <ThemeProvider>
     <AuthProvider>
-      {/* BrowserRouter enables client-side routing for the whole app */}
+      {}
       <BrowserRouter>
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/unauthorized" element={<Unauthorized />} />
 
-          {/* Admin only */}
+          {}
           <Route
             path="/admin/dashboard"
             element={
@@ -32,7 +32,7 @@ function App() {
             }
           />
 
-          {/* Normal User only — role value is NORMAL, not NORMAL_USER */}
+          {}
           <Route
             path="/stores"
             element={
@@ -42,7 +42,7 @@ function App() {
             }
           />
 
-          {/* Store Owner only */}
+          {}
           <Route
             path="/store-owner/dashboard"
             element={
@@ -52,7 +52,7 @@ function App() {
             }
           />
 
-          {/* Any logged-in role can update their own password */}
+          {}
           <Route
             path="/update-password"
             element={
@@ -62,7 +62,7 @@ function App() {
             }
           />
 
-          {/* Redirect the root path to /login */}
+          {}
           <Route path="/" element={<Navigate to="/login" />} />
         </Routes>
       </BrowserRouter>
