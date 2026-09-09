@@ -1,10 +1,6 @@
 import { useState } from 'react';
 
-/**
- * Interactive 1-5 star rating widget.
- * value: currently submitted rating (or null)
- * onSubmit: called with the new rating value when the user clicks a star
- */
+
 function StarRating({ value, onSubmit, disabled }) {
   const [hovered, setHovered] = useState(0);
 
