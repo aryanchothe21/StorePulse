@@ -30,9 +30,7 @@ export function AuthProvider({ children }) {
   );
 }
 
-// A custom hook - instead of every component writing
-// useContext(AuthContext), they just write useAuth().
-// Small readability improvement, very common React pattern.
+
 export function useAuth() {
   return useContext(AuthContext);
 }
