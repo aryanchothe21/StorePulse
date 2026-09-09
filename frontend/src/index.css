@@ -133,7 +133,7 @@ body {
   margin-bottom: 12px;
 }
 
-/* ===== Dashboard layout ===== */
+
 .dashboard-page {
   padding: 24px 32px;
   max-width: 1100px;
@@ -199,7 +199,7 @@ body {
   background: var(--bg-hover-subtle);
 }
 
-/* ===== Stat cards ===== */
+
 .stats-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
@@ -227,7 +227,7 @@ body {
   margin-top: 4px;
 }
 
-/* ===== Filters ===== */
+
 .filters-bar {
   display: flex;
   flex-wrap: wrap;
@@ -245,7 +245,7 @@ body {
   color: var(--text-primary);
 }
 
-/* ===== Tables ===== */
+
 .table-wrap {
   background: var(--bg-card);
   border-radius: 8px;
@@ -305,7 +305,7 @@ table.data-table {
 [data-theme='dark'] .role-NORMAL { background: #1e3a5f; color: #93c5fd; }
 [data-theme='dark'] .role-STORE_OWNER { background: #14432b; color: #86efac; }
 
-/* ===== Modal ===== */
+
 .modal-overlay {
   position: fixed;
   inset: 0;
@@ -371,7 +371,7 @@ table.data-table {
   font-weight: 600;
 }
 
-/* ===== Star rating ===== */
+
 .star-rating {
   display: inline-flex;
   gap: 2px;
