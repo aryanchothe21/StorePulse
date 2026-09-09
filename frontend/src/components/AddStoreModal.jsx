@@ -9,7 +9,6 @@ function AddStoreModal({ onClose, onCreated }) {
   const [loading, setLoading] = useState(false);
 
   useEffect(() => {
-    // Store creation requires an existing STORE_OWNER user (create one first via "Add User" if none exist)
     listUsers({ role: 'STORE_OWNER' })
       .then((res) => setOwners(res.data))
       .catch(() => setOwners([]));
